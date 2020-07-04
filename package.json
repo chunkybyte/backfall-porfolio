@@ -1,0 +1,18 @@
+{
+  "name": "chunky.byte",
+  "version": "0.0.1",
+  "description": "Portfolio for Ekansh Kothiyal (@devchunkybyte)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chunkbyte",
+    "portfolio"
+  ],
+  "author": "Ekansh Kothiyal",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1"
+  }
+}

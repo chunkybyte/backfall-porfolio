@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1024px;
+}
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.brand-text {
+    display: block;
+    font-size: 26px;
+}
+.personal-link {
+    display: block;
+    font-size: 22px;
+}
+.ninja-link {
+    color: #333;
+    text-decoration: none;
+    text-shadow: 1px 1px 10px blueviolet;
+}
+
+.normal-text-block {
+    display: inline-block;
+}
+.invert-text-block {
+    display: inline-block;
+    margin-left: -4px;
+    padding: 4px;
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px blueviolet;
+}
+.personal-link .invert-text-block {
+    margin-left: 0;
+    margin-right: -4px;
+}
+
+.main-content {
+    margin: 50px 0 20px;
+    /* height: calc(100vh - 40px); */
+}
+
+.terminal-dummy {
+    background-color: #1e1e1e;
+    padding: 20px 40px;
+    border-radius: 5px;
+
+    color: #fff;
+    /* min-height: calc(100vh - 180px); */
+}
+.terminal-controls {
+    margin: 0 -20px;
+}
+.terminal-controls .btn {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.terminal-controls .close-btn {
+    background-color: #ff5f56;
+}
+.terminal-controls .maximize-btn {
+    background-color: #ffbd2e;
+}
+.terminal-controls .minimize-btn {
+    background-color: #27c93f;
+}
+.terminal-content {
+    margin: 20px auto 0;
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-shadow: 6px 1px 1px blueviolet;
+}
+
+.code-blue {
+    color: rgb(156, 220, 254);
+}
+.code-yellow {
+    color: rgb(220, 220, 170);
+}
+.code-green {
+    color: rgb(106, 153, 85);
+}
+.code-purple {
+    color: rgb(197, 134, 192);
+}
+.big-dots {
+    margin-top: -30px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+}
+.three-word-intro {
+    margin: 10px 0;
+}
+.just-some-text {
+    margin: 20px 0;
+}
+.social-links {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px #999;
+    border-radius: 8px;
+    padding: 10px;
+}
+.social-links .icon {
+    font-size: 30px;
+    margin: 0 10px;
+}
