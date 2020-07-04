@@ -11,8 +11,5 @@
     "portfolio"
   ],
   "author": "Ekansh Kothiyal",
-  "license": "ISC",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.1"
-  }
+  "license": "ISC"
 }
